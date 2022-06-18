@@ -33,7 +33,7 @@ Here's a screenshot of the result I got.
 ### Links
 
 - Repository URL: [Click here](https://github.com/GregoriM04/order-summary-component.git)
-- Live Site URL: [Click here](https://your-live-site-url.com)
+- Live Site URL: [Click here](https://gregorim04.github.io/order-summary-component/)
 
 
 ## My process
