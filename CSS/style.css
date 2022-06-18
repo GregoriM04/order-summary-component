@@ -227,6 +227,7 @@ body {
 
     .bg_img_container .pattern_bg_dt {
         display: block;
+        width: 100vw;
     }
 }
 
@@ -250,13 +251,6 @@ body {
 
     .plan_selection {
         margin: 0 30px 15px 30px;
-    }
-}
-
-@media (min-width: 1441px) {
-    .bg_img_container .pattern_bg_dt {
-        width: 100vw;
-        height: auto;
     }
 }
 
