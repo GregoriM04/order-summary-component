@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-compatible" content="ie=edge">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./CSS/style.css">
+  
+  
+  <title>Frontend Mentor | Order summary card</title>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="title_container">
+    <h1 class="title">Order summary card component</h1>
+  </header>
+
+  <!-- MAIN -->
+  <!-- Background images -->
+  <main class="container">
+    <figure class="bg_img_container">
+      <img src="./images/pattern-background-mobile.svg" alt="Mobile Background Pattern" class="pattern_bg_mbl">
+      <img src="./images/pattern-background-desktop.svg" alt="Desktop Background Pattern" class="pattern_bg_dt">
+    </figure>
+
+    <!-- Card container -->
+    <article class="card">
+      <figure class="main_img_card">
+        <img src="./images/illustration-hero.svg" alt="illustration Hero" class="img_card">
+      </figure>
+      <section class="card_info">
+        <h2 class="card_title">
+          Order Summary
+        </h2>
+        <p class="card_text">
+          You can now listen to millions of songs, audiobooks, and podcasts on any 
+          device anywhere you like!
+        </p>
+      </section>
+      <section class="plan_selection">
+        <img src="./images/icon-music.svg" alt="">
+        <p class="chosen_plan">
+          Annual Plan <span class="plan_cost">$59.99/year</span>
+        </p>
+        <p class="change_btn"><a href="#">Change</a></p>
+      </section>
+      <section class="button_section">
+        <button class="payment_btn">
+          Proceed to Payment
+        </button>
+        <p class="cancel_btn">
+          <a href="#">Cancel Order</a>
+        </p>
+      </section>
+    </article>
+  </main>
+  
+  <!-- FOOTER -->
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://twitter.com/GregoriM04" target="_blank">Gregori Martínez</a>.
+  </footer>
+</body>
+</html>
